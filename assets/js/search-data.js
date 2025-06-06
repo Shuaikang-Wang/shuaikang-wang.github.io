@@ -400,7 +400,7 @@ ninja.data = [{
           section: "News",},{id: "news-one-paper-hybrid-and-oriented-harmonic-potentials-for-safe-task-execution-in-unknown-environment-has-been-accepted-to-automatica",
           title: 'One paper Hybrid and Oriented Harmonic Potentials for Safe Task Execution in Unknown...',
           description: "",
-          section: "News",},{id: "news-i-am-pleased-to-share-that-i-have-been-awarded-the-academic-rising-star-top-5-recognition-in-the-college-of-engineering-at-peking-university",
+          section: "News",},{id: "news-i-am-pleased-to-share-that-i-have-been-awarded-the-academic-rising-star-top-5-from-the-college-of-engineering-at-peking-university",
           title: 'I am pleased to share that I have been awarded the Academic Rising...',
           description: "",
           section: "News",},{id: "projects-project-1",
