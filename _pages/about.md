@@ -26,7 +26,7 @@ latest_posts:
 ---
 
 I am a second-year master's student at [Peking University](https://www.pku.edu.cn/) (PKU), where I am advised by [Prof. Meng Guo](https://mengguo.github.io/personal_site/).
-I received my bachelor's degree in Robotics Engineering from the [College of Engineering](http://en.coe.pku.edu.cn/) at [Peking University](https://english.pku.edu.cn/) in 2023. During my undergraduate studies, I was fortunate to participate in an exchange program at the [University of British Columbia](https://www.ubc.ca/).
+I received my bachelor's degree in Robotics Engineering from the [College of Engineering](http://en.coe.pku.edu.cn/) (COE) at [Peking University](https://english.pku.edu.cn/) (PKU) in 2023. During my undergraduate studies, I was fortunate to participate in an exchange program at the [University of British Columbia](https://www.ubc.ca/) (UBC).
 
 My research interests lie at the intersection of [decision-making], [learning], and [control] in robotic systems. 
 I am particularly focused on improving the efficiency, safety, and flexibility of robots in complex tasks.
