@@ -5,11 +5,11 @@ permalink: /
 subtitle: <b>Master Student</b> at PKU Robotics 
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Beijing, China, 100871</p>
+    <p> </p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,6 +26,6 @@ latest_posts:
 ---
 
 I am a second year Master student at [Peking University](https://www.pku.edu.cn/)(PKU), where I work with [Prof. Meng Guo](https://mengguo.github.io/personal_site/).
-I received my Bachelor's degree in Robotics Engineering from the [College of Engineering](http://en.coe.pku.edu.cn/) at [Peking University](https://english.pku.edu.cn/) in 2023. I was lucky to study as an exchange student at the [University of British Columbia](https://www.ubc.ca/) in 2021. I am expected to graduate with a Master's degree in 2026.
+I received my Bachelor's degree in Robotics Engineering from the [College of Engineering](http://en.coe.pku.edu.cn/) at [Peking University](https://english.pku.edu.cn/) in 2023. During the undergraduate, I was lucky to study as an exchange student at the [University of British Columbia](https://www.ubc.ca/).
 
 My research interests lie at the intersection of decision-making, learning, and control in robotic systems. I focus on enhancing the efficiency, safety, and flexibility of robots in complex tasks.
