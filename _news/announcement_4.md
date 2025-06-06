@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-I am pleased to share that I have been awarded the <b>Academic Rising Star</b> (Top 5) recognition in the <a href="http://en.coe.pku.edu.cn/">College of Engineering</a> at <a href="https://english.pku.edu.cn/">Peking University</a>.
+I am pleased to share that I have been awarded the <a style="color:red" target="_blank"><b>Academic Rising Star (Top 5)</b></a> from the <b>College of Engineering</b> at <b>Peking University</b>.
 
