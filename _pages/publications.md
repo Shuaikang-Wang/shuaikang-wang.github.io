@@ -13,7 +13,7 @@ See the <a href="https://scholar.google.com/citations?user=D7tGwOMAAAAJ&hl=zh-CN
 
 <!-- Bibsearch Feature -->
 
-{% include bib_search.liquid %}
+<!-- {% include bib_search.liquid %} -->
 
 <div class="publications">
 
