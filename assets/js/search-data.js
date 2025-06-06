@@ -440,16 +440,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-one-paper-uncertainty-bounded-active-monitoring-of-unknown-dynamic-targets-in-road-networks-with-minimum-fleet-has-been-accepted-to-icra-2024",
+          title: 'One paper Uncertainty-bounded Active Monitoring of Unknown Dynamic Targets in Road-networks with Minimum...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-our-paper-uncertainty-bounded-active-monitoring-of-unknown-dynamic-targets-in-road-networks-with-minimum-fleet-was-selected-for-the-best-paper-award-on-multi-robot-systems-finalist-at-icra-2024",
+          title: 'Our paper Uncertainty-bounded Active Monitoring of Unknown Dynamic Targets in Road-networks with Minimum...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-one-paper-hybrid-and-oriented-harmonic-potentials-for-safe-task-execution-in-unknown-environment-has-been-accepted-to-automatica",
+          title: 'One paper Hybrid and Oriented Harmonic Potentials for Safe Task Execution in Unknown...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -501,28 +499,21 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%77%61%6E%67%73@%70%6B%75.%65%64%75.%63%6E", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://github.com/Shuaikang-Wang", "_blank");
         },
       },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=D7tGwOMAAAAJ", "_blank");
         },
       },{
         id: 'social-custom_social',
