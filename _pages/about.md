@@ -28,7 +28,7 @@ latest_posts:
 education:
   enabled: true
   items:
-    - logo: prof_pic.jpg
+    - logo: pku_logo.jpg
       institution: Peking University
       degrees:
         - title: M.Eng.
