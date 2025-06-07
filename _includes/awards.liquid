@@ -4,11 +4,11 @@
 <ul class="awards-list" style="padding-left: 2em;">
   {% for award in page.awards.items %}
     <li style="margin-bottom: 1em;">
-      <span style="font-weight: 500;">{{ award.date }}:</span>
       <b>{{ award.title }}</b>
       {% if award.organization %}
         <span style="font-style: italic">{{ award.organization }}</span>
       {% endif %}
+      <span style="font-style: italic"> ,{{award.date}}</span>
     </li>
   {% endfor %}
 </ul>
