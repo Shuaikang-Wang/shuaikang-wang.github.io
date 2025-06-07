@@ -53,18 +53,24 @@ education:
 awards:
   enabled: true
   items:
-    - title: Academic Rising Star, College of Engineering, Peking University
+    - title: Academic Rising Star
       date: 2025
-    - title: Best Paper Award on Multi-Robots Systems Finalist, IEEE ICRA
+      organization: College of Engineering, Peking University
+    - title: Best Paper Award on Multi-Robots Systems Finalist
       date: 2024
-    - title: Dean’s Scholarship, College of Engineering, Peking University
+      organization: IEEE ICRA
+    - title: Dean’s Scholarship, College of Engineering
       date: 2023
-    - title: (NAE) Grand Challenges Scholar Award, National Academy of Engineering, United States
+      organization: Peking University
+    - title: (NAE) Grand Challenges Scholar Award
       date: 2023
-    - title: Outstanding Overseas Exchange Scholarship, Peking University
+      organization: National Academy of Engineering, United States
+    - title: Outstanding Overseas Exchange Scholarship
       date: 2022
-    - title: Academic Excellence Award, Peking University
+      organization: Peking University
+    - title: Academic Excellence Award
       date: 2020
+      organization: Peking University
 
 
 ---

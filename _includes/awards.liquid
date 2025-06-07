@@ -4,7 +4,11 @@
 <ul class="awards-list" style="padding-left: 1.2em;">
   {% for award in page.awards.items %}
     <li style="margin-bottom: 0.4em;">
-      <span style="font-weight: 500;">· {{ award.date }}</span> {{ award.title }}
+      <span style="font-weight: 500;">{{ award.date }}:</span>
+      <b>{{ award.title }}</b>
+      {% if award.organization %}
+        <div style="font-style: italic">{{ award.organization }}</div>
+      {% endif %}
     </li>
   {% endfor %}
 </ul>
