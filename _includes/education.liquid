@@ -3,14 +3,16 @@
 </h2>
 <div class="education-list">
   {% for edu in page.education.items %}
-    <div class="edu-entry d-flex mb-10">
-      <div class="edu-logo me-3" style="flex: 0 0 80px;">
+    <div class="edu-entry d-flex mb-10" style="margin-bottom: 1rem;">
+      <div class="edu-logo me-10" style="flex: 0 0 80px;">
         <img src="{{ 'assets/img/' | append: edu.logo | relative_url }}" alt="{{ edu.institution }} logo" style="width:80px; height:80px; object-fit: contain;">
       </div>
       <div>
         <h5 style="margin-bottom: 0.25rem;"><strong>{{ edu.institution }}</strong></h5>
         {% for degree in edu.degrees %}
-          <div><em>{{ degree.title }}</em> in {{ degree.field }}, <span style="font-style: italic;">{{ degree.years }}</span></div>
+          <div style="margin-bottom: 0.5rem;">
+            <em>{{ degree.title }}</em> in {{ degree.field }}, <span style="font-style: italic;">{{ degree.years }}</span>
+          </div>
         {% endfor %}
       </div>
     </div>
