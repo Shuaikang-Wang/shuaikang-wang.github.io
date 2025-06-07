@@ -1,13 +1,13 @@
-<h2>
+<h2 style="margin-bottom: 2rem;">
   <a style="color: inherit"><b>Awards and Honors</b></a>
 </h2>
-<ul class="awards-list" style="padding-left: 1.2em;">
+<ul class="awards-list" style="padding-left: 2em;">
   {% for award in page.awards.items %}
-    <li style="margin-bottom: 0.4em;">
+    <li style="margin-bottom: 1em;">
       <span style="font-weight: 500;">{{ award.date }}:</span>
       <b>{{ award.title }}</b>
       {% if award.organization %}
-        <div style="font-style: italic">{{ award.organization }}</div>
+        <span style="font-style: italic">{{ award.organization }}</span>
       {% endif %}
     </li>
   {% endfor %}

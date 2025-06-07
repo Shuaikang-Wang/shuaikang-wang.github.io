@@ -59,9 +59,9 @@ awards:
     - title: Best Paper Award on Multi-Robots Systems Finalist
       date: 2024
       organization: IEEE ICRA
-    - title: Dean’s Scholarship, College of Engineering
+    - title: Dean’s Scholarship
       date: 2023
-      organization: Peking University
+      organization: College of Engineering, Peking University
     - title: (NAE) Grand Challenges Scholar Award
       date: 2023
       organization: National Academy of Engineering, United States
