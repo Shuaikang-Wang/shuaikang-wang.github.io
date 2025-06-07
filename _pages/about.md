@@ -30,3 +30,11 @@ I received my bachelor's degree in Robotics Engineering from the [College of Eng
 
 My research interests lie at the intersection of <b>decision-making</b>, <b>learning</b>, and <b>control</b> in <b>robotic systems</b>. 
 I am particularly focused on improving the efficiency, safety, and flexibility of robots in complex tasks.
+
+## Education
+
+- **B.Eng. in Mechanical Engineering**, *Peking University*, 2023 – 2026(expected)
+
+- **Exchange in Mechanical Engineering**, *University of British Columbia*, 2021 – 2022
+
+- **B.Eng. in Robotics Engineering**, *Peking University*, 2019 – 2023  
