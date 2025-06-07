@@ -49,6 +49,24 @@ education:
           field: Robotics Engineering
           years: "2019 - 2023"
 
+
+awards:
+  enabled: true
+  items:
+    - title: Academic Rising Star, College of Engineering, Peking University.
+      date: 2025
+    - title: Best Paper Award on Multi-Robots Systems Finalist, IEEE ICRA
+      date: 2024
+    - title: Dean’s Scholarship, College of Engineering, Peking University
+      date: 2023
+    - title: (NAE) Grand Challenges Scholar
+      date: 2023
+    - title: Outstanding Overseas Exchange Scholarship, Peking University
+      date: 2022
+    - title: Academic Excellent Excellence, Peking University
+      date: 2020
+
+
 ---
 
 I am a second-year master's student at [Peking University](https://www.pku.edu.cn/) (PKU), where I am advised by [Prof. Meng Guo](https://mengguo.github.io/personal_site/).

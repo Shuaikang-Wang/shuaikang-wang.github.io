@@ -1,9 +1,11 @@
-<h2><b>Education</b></h2>
+<h2>
+  <a style="color: inherit"><b>Education</b></a>
+</h2>
 <div class="education-list">
   {% for edu in page.education.items %}
-    <div class="edu-entry d-flex mb-4">
-      <div class="edu-logo me-3" style="flex: 0 0 64px;">
-        <img src="{{ 'assets/img/' | append: edu.logo | relative_url }}" alt="{{ edu.institution }} logo" style="width:64px; height:64px; object-fit: contain;">
+    <div class="edu-entry d-flex mb-10">
+      <div class="edu-logo me-3" style="flex: 0 0 80px;">
+        <img src="{{ 'assets/img/' | append: edu.logo | relative_url }}" alt="{{ edu.institution }} logo" style="width:80px; height:80px; object-fit: contain;">
       </div>
       <div>
         <h5 style="margin-bottom: 0.25rem;"><strong>{{ edu.institution }}</strong></h5>

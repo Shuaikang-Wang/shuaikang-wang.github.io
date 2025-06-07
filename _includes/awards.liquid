@@ -1,0 +1,10 @@
+<h2>
+  <a style="color: inherit"><b>Awards and Honors</b></a>
+</h2>
+<ul class="awards-list" style="padding-left: 1.2em;">
+  {% for award in page.awards.items %}
+    <li style="margin-bottom: 0.4em;">
+      <span style="font-weight: 500;">· {{ award.date }}</span> {{ award.title }}
+    </li>
+  {% endfor %}
+</ul>
