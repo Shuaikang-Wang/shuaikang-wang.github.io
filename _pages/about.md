@@ -28,26 +28,26 @@ latest_posts:
 education:
   enabled: true
   items:
-    - logo: pku_logo.svg
+    - logo: pku_logo.png
       institution: Peking University
       degrees:
         - title: M.Eng.
           field: Mechanical Engineering
           years: "2023 - 2026 (Expected)"
 
-    - logo: pku_logo.svg
+    - logo: ubc_logo.png
+      institution: University of British Columbia
+      degrees:
+        - title: Exchange Student
+          field: Mechanical Engineering
+          years: "2021"
+
+    - logo: pku_logo.png
       institution: Peking University
       degrees:
         - title: B.Eng.
           field: Robotics Engineering
           years: "2019 - 2023"
-
-    - logo: ubc_logo.svg
-      institution: University of British Columbia
-      degrees:
-        - title: Exchange Student
-          field: Robotics Engineering
-          years: "2021"
 
 ---
 
