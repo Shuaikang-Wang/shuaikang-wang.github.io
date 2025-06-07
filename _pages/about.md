@@ -17,12 +17,26 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 10 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
+
+
+education:
+  enabled: true
+  items:
+    - logo: prof_pic.jpg
+      institution: Peking University
+      degrees:
+        - title: M.Eng.
+          field: Mechanical Engineering
+          years: "2019 - 2023"
+
+
+
 ---
 
 I am a second-year master's student at [Peking University](https://www.pku.edu.cn/) (PKU), where I am advised by [Prof. Meng Guo](https://mengguo.github.io/personal_site/).
@@ -30,11 +44,3 @@ I received my bachelor's degree in Robotics Engineering from the [College of Eng
 
 My research interests lie at the intersection of <b>decision-making</b>, <b>learning</b>, and <b>control</b> in <b>robotic systems</b>. 
 I am particularly focused on improving the efficiency, safety, and flexibility of robots in complex tasks.
-
-## Education
-
-- **B.Eng. in Mechanical Engineering**, *Peking University*, 2023 – 2026(expected)
-
-- **Exchange in Mechanical Engineering**, *University of British Columbia*, 2021 – 2022
-
-- **B.Eng. in Robotics Engineering**, *Peking University*, 2019 – 2023  
