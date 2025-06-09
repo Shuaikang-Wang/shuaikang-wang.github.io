@@ -77,7 +77,7 @@ awards:
 
 I am a second-year master's student at [Peking University](https://www.pku.edu.cn/) (PKU), where I am advised by [Prof. Meng Guo](https://mengguo.github.io/personal_site/).
 I received my bachelor's degree in Robotics Engineering from the [College of Engineering](http://en.coe.pku.edu.cn/) at [Peking University](https://english.pku.edu.cn/) in 2023. During my undergraduate studies, I was fortunate to participate in an exchange program at the [University of British Columbia](https://www.ubc.ca/) (UBC).
-I am currently a visiting researcher in the [Department of Electrical and Computer Engineering](https://cde.nus.edu.sg/ece/) at [National University of Singapore](https://nus.edu.sg/), working under the supervision of [Prof. Xingyu Liu](https://xingyul.github.io/) on robotic manipulation.
+I am currently a research intern in the [Department of Electrical and Computer Engineering](https://cde.nus.edu.sg/ece/) at [National University of Singapore](https://nus.edu.sg/), working under the supervision of [Prof. Xingyu Liu](https://xingyul.github.io/) on robotic manipulation.
 
 My research interests lie at the intersection of <b>decision-making</b>, <b>learning</b>, and <b>control</b> in <b>robotic systems</b>. 
 I am particularly focused on improving the efficiency, safety, and flexibility of robots in complex tasks.
