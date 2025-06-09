@@ -33,10 +33,11 @@ layout: default
         {% endif %}
 
         {% if page.social %}
-          <div class="social" style="margin-top: 0.8rem;">
-            <div class="contact-icons" style="display: inline-block;">
+          <div class="social" style="margin-top: 0.2rem;">
+            <div class="contact-icons" style="scale: 50%;">
               {% include social.liquid %}
             </div>
+            <div class="contact-note"  style="scale: 100%;">{{ site.contact_note }}</div>
           </div>
         {% endif %}
       </div>
