@@ -80,9 +80,11 @@ layout: default
     {% endif %}
 
     <!-- ClustrMaps Globe Widget -->
-    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=_qI1IZ2Q5qY4NQAXaor8PHtfArTeY29QKkkvEfxYyN4"></script>
+    <div style="scale: 20%;">
+      <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=_qI1IZ2Q5qY4NQAXaor8PHtfArTeY29QKkkvEfxYyN4"></script>
+    </div>
 
-
+    
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}
