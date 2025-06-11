@@ -79,11 +79,11 @@ layout: default
       {% include awards.liquid %}
     {% endif %}
 
-    <!-- ClustrMaps Globe Widget -->
-    <div style="width: 150px; height: 150px; overflow: hidden;">
-      <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=_qI1IZ2Q5qY4NQAXaor8PHtfArTeY29QKkkvEfxYyN4"></script>
+    <div style="width: 160px; height: 160px; overflow: hidden;">
+      <div style="transform: scale(0.2); transform-origin: top left;">
+        <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=_qI1IZ2Q5qY4NQAXaor8PHtfArTeY29QKkkvEfxYyN4"></script>
+      </div>
     </div>
-
     
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
