@@ -399,7 +399,7 @@ ninja.data = [{
           section: "News",},{id: "news-two-papers-lomoro-long-term-monitoring-of-dynamic-targets-with-minimum-robotic-fleet-under-resource-constraints-and-multi-uav-deployment-in-obstacle-cluttered-environments-with-los-connectivity-have-been-accepted-to-iros2025",
           title: 'Two papers LOMORO: Long-term Monitoring of Dynamic Targets with Minimum Robotic Fleet under...',
           description: "",
-          section: "News",},{id: "news-one-paper-customize-harmonic-potential-fields-via-hybrid-optimization-over-homotopic-paths-has-been-accepted-to-ra-l",
+          section: "News",},{id: "news-one-paper-customize-harmonic-potential-fields-via-hybrid-optimization-over-homotopic-paths-has-been-accepted-to-ieee-ra-l",
           title: 'One paper Customize Harmonic Potential Fields via Hybrid Optimization over Homotopic Paths has...',
           description: "",
           section: "News",},{id: "projects-project-1",
