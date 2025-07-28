@@ -396,7 +396,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-m-honored-to-be-selected-as-the-academic-rising-star-top-5-from-the-college-of-engineering-at-peking-university",
           title: 'I’m honored to be selected as the Academic Rising Star (Top 5) from...',
           description: "",
-          section: "News",},{id: "news-two-papers-lomoro-long-term-monitoring-of-dynamic-targets-with-minimum-robotic-fleet-under-resource-constraints-and-multi-uav-deployment-in-obstacle-cluttered-environments-with-los-connectivity-have-been-accepted-to-iros2025",
+          section: "News",},{id: "news-two-papers-lomoro-long-term-monitoring-of-dynamic-targets-with-minimum-robotic-fleet-under-resource-constraints-and-multi-uav-deployment-in-obstacle-cluttered-environments-with-los-connectivity-have-been-accepted-to-iros-2025",
           title: 'Two papers LOMORO: Long-term Monitoring of Dynamic Targets with Minimum Robotic Fleet under...',
           description: "",
           section: "News",},{id: "news-one-paper-customize-harmonic-potential-fields-via-hybrid-optimization-over-homotopic-paths-has-been-accepted-to-ieee-ra-l",
