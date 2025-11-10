@@ -1,0 +1,208 @@
+\documentclass{article}
+\usepackage[paperwidth=8.5in,paperheight=11in,margin=36.299pt]{geometry}
+
+
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage{XCharter}
+\else
+  \usepackage{fontspec}
+  \IfFontExistsTF{Charter BT}{
+    \setmainfont{Charter BT}[Ligatures=TeX]
+  }{
+    \IfFontExistsTF{Bitstream Charter}{
+      \setmainfont{Bitstream Charter}[Ligatures=TeX]
+    }{
+      \setmainfont{XCharter}[Ligatures=TeX]
+    }
+  }
+\fi
+
+\usepackage{xcolor}
+\color{black}
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{fontawesome5}
+\usepackage{xstring}
+\usepackage{graphicx}
+\usepackage[normalem]{ulem}
+
+\newcommand{\SectionFirstScale}{1.25}
+\newcommand{\SectionFirstLift}{0.0ex}
+\newcommand{\SectionGap}{4pt}
+\newcommand{\SectionRule}{0.6pt}
+\newcommand{\BodySize}{9.9626pt}
+\newcommand{\BodyLeading}{11.9552pt}
+\newcommand{\SectionSize}{11.9552pt}
+\newcommand{\SectionLeading}{14.3462pt}
+\newcommand{\NameSize}{20.6625pt}
+\newcommand{\NameLeading}{24.7950pt}
+\AtBeginDocument{\fontsize{\BodySize}{\BodyLeading}\selectfont}
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+\newlength{\SectionBodyIndent}
+\setlength{\SectionBodyIndent}{12pt}
+
+\newcommand{\NameFont}{\fontsize{\NameSize}{\NameLeading}\selectfont}
+\newcommand{\SectionFont}{\fontsize{\SectionSize}{\SectionLeading}\selectfont}
+\newcommand{\entry}[2]{\textbf{#1}\hfill{#2}\par}
+\newcommand{\sectionheader}[1]{\vspace{6pt}{\SectionFont\textbf{#1}}\par\vspace{2pt}\hrule\vspace{4pt}}
+\definecolor{HeaderBlue}{HTML}{1F4D9E}
+\definecolor{Blue}{HTML}{0000FF}
+\definecolor{Brown}{HTML}{A52A2A}
+\renewcommand{\sectionheader}[1]{%
+  \vspace{8pt}%
+  \StrChar{#1}{1}[\HeaderFirst]%
+  \StrGobbleLeft{#1}{1}[\HeaderRest]%
+  {\SectionFont\textcolor{HeaderBlue}{%
+    \raisebox{\SectionFirstLift}{\scalebox{\SectionFirstScale}{\HeaderFirst}}%
+    \kern0.03em
+    \HeaderRest
+  }}%
+  \par\nointerlineskip
+  \vspace{\SectionGap}%
+  {\color{HeaderBlue}\rule{\linewidth}{\SectionRule}}%
+  \vspace{2pt}%
+}
+
+\begin{document}
+
+\begin{center}
+  {\NameFont \textbf{Shuaikang Wang}}\\[2pt]
+  \faIcon{envelope}~\href{mailto:wangs@pku.edu.cn}{wangs@pku.edu.cn}
+  \;|\; \faIcon{github}~\href{https://github.com/Shuaikang-Wang}{GitHub}
+  \;|\; \faIcon{globe}~\href{https://shuaikang-wang.github.io}{shuaikang-wang.github.io}
+  \;|\; \faIcon{map-marker-alt}~ Beijing, China
+\end{center}
+
+\sectionheader{EDUCATION}
+\entry{Peking University}{Beijing, China}
+\begin{itemize}[leftmargin=12pt, topsep=2pt, itemsep=-2pt]
+  \item[] \textit{M.Eng. in Mechanical Engineering \textnormal{(Rank: 1/133)} \hfill Sep. 2023 -- Jul. 2026}
+  \item[] \textit{Advisor: Prof. Meng Guo}
+  \item[] \textit{Courses: Advanced Robotics, Reinforcement Learning, Distributed Optimization, Analytical Dynamics}
+\end{itemize}
+\vspace{2pt}
+
+\entry{Peking University}{Beijing, China}
+\begin{itemize}[leftmargin=12pt, topsep=2pt, itemsep=-2pt]
+  \item[] \textit{B.Eng. in Robotics Engineering  \textnormal{(GPA: 3.6/4.0)} \hfill Sep. 2019 -- Jul. 2023}
+  \item[] \textit{Advisor: Prof. Meng Guo}
+  \item[] \textit{Courses: Machine Learning, Introduction to Intelligent Robots, Robot Perception and Control}
+\end{itemize}
+\vspace{2pt}
+
+\entry{The University of British Columbia}{Vancouver, Canada}
+\begin{itemize}[leftmargin=12pt, topsep=2pt, itemsep=-2pt]
+  \item[] \textit{Exchange Student in the Faculty of Applied Science \textnormal{(GPA: 4.0/4.0)} \hfill Aug. 2021 -- Dec. 2021}
+  \item[] \textit{Courses: Introduction to Probability, Signals and Systems, Mechanics I, Applied Electronics}
+\end{itemize}
+\vspace{2pt}
+
+\sectionheader{RESEARCH INTERESTS}
+My research interests lie at the intersection of \textbf{decision-making}, \textbf{learning}, and \textbf{control} in robotic systems.
+I am particularly focused on improving the \textbf{efficiency}, \textbf{safety}, and \textbf{flexibility} of robots in \textbf{complex tasks}.
+
+\sectionheader{PUBLICATIONS}
+\textbf{[6] Intention-aware Monitoring of Dynamic Targets with Bounded Uncertainty and Minimum Fleet}\\
+\uline{Shuaikang Wang}, Jianyang Xue, Yiannis Kantaros and Meng Guo\\
+\textit{Under Review}
+
+\medskip
+\textbf{[5] LOMORO: Long-term Monitoring of Dynamic Targets with Minimum Robotic Fleet under Resource Constraints}\\
+Mingke Lu, \uline{Shuaikang Wang}, and Meng Guo\\
+\textit{IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 2025.
+\href{https://arxiv.org/pdf/2510.10046}{\textcolor{Blue}{[PDF]}}
+
+\medskip
+\textbf{[4] Multi-UAV deployment in obstacle-cluttered environments with LOS connectivity}\\
+Yuda Chen, \uline{Shuaikang Wang}, Jie Li, Meng Guo\\
+\textit{IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 2025.
+\href{https://arxiv.org/pdf/2507.21772}{\textcolor{Blue}{[PDF]}}
+
+\medskip
+\textbf{[3] Customize Harmonic Potential Fields via Hybrid Optimization over Homotopic Paths}\\
+\uline{Shuaikang Wang}, Tiecheng Guo, and Meng Guo\\
+\textit{IEEE Robotics and Automation Letters (RA-L)}, 2025.
+\href{https://arxiv.org/pdf/2507.09858}{\textcolor{Blue}{[PDF]}}
+\href{https://shuaikang-wang.github.io/CustFields/}{\textcolor{Blue}{[Project]}}\\
+\textbf{\textcolor{Brown}{Selected for Presentation at ICRA2026}}
+
+\medskip
+\textbf{[2] Hybrid and oriented harmonic potentials for safe task execution in unknown environment}\\
+\uline{Shuaikang Wang} and Meng Guo\\
+\textit{Automatica}, 2025.
+\href{https://arxiv.org/pdf/2306.07537}{\textcolor{Blue}{[PDF]}}
+\href{https://shuaikang-wang.github.io/HarmonicTree/}{\textcolor{Blue}{[Project]}}
+
+\medskip
+\textbf{[1] Uncertainty-bounded Active Monitoring of Unknown Dynamic Targets in Road-networks with Minimum Fleet}\\
+\uline{Shuaikang Wang}, Yiannis Kantaros and Meng Guo\\
+\textit{IEEE International Conference on Robotics and Automation (ICRA)}, 2024.
+\href{https://arxiv.org/pdf/2309.08322}{\textcolor{Blue}{[PDF]}}\\
+\textbf{\textcolor{Brown}{Best Paper Award on Multi-Robot Systems Finalist}}
+
+\sectionheader{RESEARCH EXPERIENCE}
+\entry{Dexterous Grasping Synthesis via Contact-preserving Differentiable Optimization}{Mar. 2025 -- Sep. 2025}
+\vspace{2pt}
+\textit{Research Intern, National University of Singapore \hfill Advisor: Prof. Xingyu Liu}
+\begin{itemize}[leftmargin=12pt, topsep=2pt, itemsep=0pt]
+  \item Formulated a contact-preserving differentiable optimization pipeline that jointly refines the 6-DoF poses of all hand links 
+  and candidate contact points under joint-limit and non-penetration constraints.
+  \item Derived closed-form analytic gradients for all kinematic and contact terms to ensure fast convergence.
+  \item Implemented and benchmarked the method in \textit{IsaacLab} across varied objects and dexterous-hand morphologies, 
+  then performed sim-to-real transfer via system identification and contact calibration.
+\end{itemize}
+
+\medskip
+\entry{Safe Robot Navigation in Complex Environments via Navigation Functions}{Jun. 2022 -- Present}
+\vspace{2pt}
+\textit{Research Assistant, Peking University \hfill Advisor: Prof. Meng Guo}
+\begin{itemize}[leftmargin=12pt, topsep=2pt, itemsep=0pt]
+  \item Proposed an online method to construct Navigation Functions by iteratively building diffeomorphic transformations as the environment updates, ensuring global convergence and safety from high-level task planning to low-level motion control.
+  \item Designed a hybrid optimization scheme that jointly selects homotopy classes (discrete obstacle abstractions) and tunes continuous field parameters, yielding topology-aware, safety-preserving trajectories with certified convergence.
+  \item Employed Flow Matching to learn diffeomorphic maps with physics-informed boundary constraints, enabling neural accelerated navigation while retaining global guarantees.
+\end{itemize}
+
+\medskip
+\entry{Intention-aware Monitoring of Dynamic Targets with Multi-Robot Teams}{Jun. 2023 -- Present}
+\vspace{2pt}
+\textit{Research Assistant, Peking University \hfill Advisor: Prof. Meng Guo and Prof. Yiannis Kantaros}
+\begin{itemize}[leftmargin=12pt, topsep=2pt, itemsep=0pt]
+  \item Formulated a distributed framework that couples LTL-based task specifications with Bayesian online intent inference and intent-aware Kalman prediction, enabling joint reasoning over task allocation and motion planning for moving targets.
+  \item Designed a game-theoretic allocation scheme that attains local Nash equilibria and integrates event-triggered MPC for closed-loop execution, supporting real-time multi-robot coordination and persistent target monitoring.
+  \item Developed a resource-constrained tasking method that minimizes team size under energy limits; validated through large-scale simulations and hardware experiments, demonstrating reduced robot usage while meeting monitoring requirements.
+\end{itemize}
+
+\sectionheader{AWARDS \& HONORS}
+\begin{itemize}[leftmargin=0pt, topsep=2pt, itemsep=0pt]
+  \item[] \textbf{National Scholarship \textcolor{Brown}{(Highest Honor for Students in China)}}, \textit{Ministry of Education, China} \hfill Oct. 2025
+  \item[] \textbf{Merit Student}, \textit{Peking University} \hfill Oct. 2025
+  \item[] \textbf{Academic Innovation Award}, \textit{Peking University} \hfill Oct. 2025
+  \item[] \textbf{Academic Rising Star}, \textit{College of Engineering, Peking University} \hfill May 2025
+  \item[] \textbf{Best Paper Award on Multi-Robots Systems Finalist}, \textit{IEEE ICRA} \hfill May 2024
+  \item[] \textbf{Dean’s Scholarship}, \textit{College of Engineering, Peking University} \hfill Otc. 2023
+  \item[] \textbf{(NAE) Grand Challenges Scholar Award}, \textit{National Academy of Engineering, United States} \hfill Jun. 2023
+  \item[] \textbf{Outstanding Overseas Exchange Scholarship}, \textit{Peking University} \hfill Mar. 2022
+  \item[] \textbf{Academic Excellence Award}, \textit{Peking University} \hfill Oct. 2020
+\end{itemize}
+
+\sectionheader{ACADEMIC SERVICE}
+\begin{itemize}[leftmargin=0pt, topsep=2pt, itemsep=0pt]
+  \item[] \textbf{Reviewer:} ICRA, IROS, RA-L, CDC
+  \item[] \textbf{Teaching Assistant:} Ordinary Differential Equation (ODE), \textit{Peking University}, 2024
+\end{itemize}
+
+
+\sectionheader{SKILLS}
+\begin{itemize}[leftmargin=0pt, topsep=2pt, itemsep=0pt]
+  \item[] \textbf{Programming:} Python, C, C++, MATLAB, \LaTeX
+  \item[] \textbf{Frameworks:} PyTorch, Anaconda, Git, ROS, IsaacLab, Mujoco, Pybullet, ManiSkill
+  \item[] \textbf{Robots:} Agile Limo, DJI Tello, Shadow Hand, Leap Hand, Unitree Go1
+\end{itemize}
+
+
+\end{document}
