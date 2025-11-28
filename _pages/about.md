@@ -53,7 +53,7 @@ education:
 awards:
   enabled: true
   items:
-    - title: National Scholarship (Highest Honor for students in China)
+    - title: National Scholarship
       date: 2025
       organization: Ministry of Education in China
     - title: Merit Student
@@ -84,7 +84,7 @@ awards:
 
 ---
 
-I am a third-year master's student in the [College of Advanced Manufacturing and Robotics](https://amr.pku.edu.cn/) at [Peking University](https://www.pku.edu.cn/) (PKU), where I am advised by [Prof. Meng Guo](https://mengguo.github.io/personal_site/).
+I am a third-year master's student in the [School of Advanced Manufacturing and Robotics](https://amr.pku.edu.cn/) at [Peking University](https://www.pku.edu.cn/) (PKU), where I am advised by [Prof. Meng Guo](https://mengguo.github.io/personal_site/).
 I received my bachelor's degree in Robotics Engineering from the [College of Engineering](http://en.coe.pku.edu.cn/) at [Peking University](https://english.pku.edu.cn/) in 2023. During my undergraduate studies, I was fortunate to participate in an exchange program at the [University of British Columbia](https://www.ubc.ca/) (UBC).
 Previously, I was a research intern with [Prof. Xingyu Liu](https://xingyul.github.io/) in the [Department of Electrical and Computer Engineering](https://cde.nus.edu.sg/ece/) at [National University of Singapore](https://nus.edu.sg/), working on robotic manipulation.
 
