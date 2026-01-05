@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <b>Master Student</b> at PKU Robotics 
+subtitle: <b>Peking University & Sharpa Robotics</b> 
 
 profile:
   align: right
@@ -90,3 +90,5 @@ Previously, I was a research intern with [Prof. Xingyu Liu](https://xingyul.gith
 
 My research interests lie at the intersection of <b>decision-making</b>, <b>learning</b>, and <b>control</b> in <b>robotic systems</b>. 
 I am particularly focused on improving the <b>efficiency</b>, <b>safety</b>, and <b>flexibility</b> of robots in complex tasks.
+
+<b>I am currently a research intern at [Sharpa Robotics](https://www.sharpa.com/)</b>
